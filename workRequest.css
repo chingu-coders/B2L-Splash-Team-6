@@ -1,0 +1,33 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url(https://source.unsplash.com/0djJiQvkXAI);
+	background-size: cover;
+	background-position: center;
+	font-family: Lato, sans-serif;
+	color: white;
+
+}
+
+h1 {
+	font-weight: 700px;
+	font-size: 5em;
+}
+
+.btn {
+
+	margin: 10px;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+				 0px 8px 13px rgba(0, 0, 0, 0.1),
+				 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.modals{
+	color: #000000 !important;
+}
