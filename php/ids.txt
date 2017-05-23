@@ -1,0 +1,16 @@
+userInfo:
+#name
+#email
+#number
+#address
+#unitNumber
+
+Footer:
+#message-text
+#sendButton
+
+indoor:
+
+outdoor:
+pests:
+other:

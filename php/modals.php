@@ -7,10 +7,11 @@
         <h3 class="modal-title" id="exampleModalLabel">Submit Indoor Request</h3>
       </div>
       <div class="modal-body">
-        <?php
-    include 'userInfo.php';
-    include 'indoor.php';
-    include 'modalFooter.php'; ?>
+    <?php
+      include 'userInfo.php';
+      include 'indoor.php';
+      include 'recipient.php';?>
+    <?php include 'modalFooter.php'; ?>
   </div>
 </div>
 </div>
@@ -20,11 +21,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="exampleModalLabel">Submit Outdoor Request</h4>
+        <h3 class="modal-title" id="exampleModalLabel">Submit Indoor Request</h3>
       </div>
       <div class="modal-body">
-        <?php include 'userInfo.php'; ?>
-        <?php include 'outdoor.php'; ?>
+    <?php
+      include 'userInfo.php';
+      include 'indoor.php';
+      include 'recipient.php';?>
     <?php include 'modalFooter.php'; ?>
   </div>
 </div>
@@ -35,13 +38,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="exampleModalLabel">Submit Pests Request</h4>
+        <h3 class="modal-title" id="exampleModalLabel">Submit Indoor Request</h3>
       </div>
       <div class="modal-body">
-        <?php
-        include 'userInfo.php';
-        include 'pests.php';
-        include 'modalFooter.php'; ?>
+    <?php
+      include 'userInfo.php';
+      include 'indoor.php';
+      include 'recipient.php';?>
+    <?php include 'modalFooter.php'; ?>
   </div>
 </div>
 </div>
@@ -51,13 +55,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="exampleModalLabel">Submit Other Request</h4>
+        <h3 class="modal-title" id="exampleModalLabel">Submit Indoor Request</h3>
       </div>
       <div class="modal-body">
-        <?php
-        include 'userInfo.php';
-        include 'other.php';
-        include 'modalFooter.php'; ?>
+    <?php
+      include 'userInfo.php';
+      include 'indoor.php';
+      include 'recipient.php';?>
+    <?php include 'modalFooter.php'; ?>
   </div>
 </div>
 </div>
