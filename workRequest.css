@@ -15,9 +15,11 @@ h1 {
 	font-weight: 700px;
 	font-size: 5em;
 }
+li {
+	color: black;
+}
 
 .btn {
-
 	margin: 10px;
 }
 
@@ -28,6 +30,45 @@ h1 {
 				 0px 8px 13px rgba(0, 0, 0, 0.1),
 				 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
-.modal{
-	color: #000000 !important;
+.rating {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+.rating-input {
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0 0 0 -16px;
+    opacity: 0;
+}
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+}
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -16px;
+}
+.prevReqTitle {
+		color: black;
+    outline: black solid thick;
+		background-color: white;
+}
+.prevReq {
+		color: black;
+    outline: black solid thin;
+		background-color: white;
+}
+/* Just for the demo */
+body {
+    margin: 20px;
 }
