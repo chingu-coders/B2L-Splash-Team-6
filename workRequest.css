@@ -68,6 +68,17 @@ li {
     outline: black solid thin;
 		background-color: white;
 }
+
+.statusBox {
+  background: red;
+	height: 30%;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+.form-group {
+	color: black;
+}
 /* Just for the demo */
 body {
     margin: 20px;
