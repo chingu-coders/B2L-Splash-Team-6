@@ -36,3 +36,10 @@ $('#otherModal').on('show.bs.modal', function (event) {
   modal.find('.modal-title').text('New message to ' + recipient)
   modal.find('.modal-body input').val(recipient)
 })
+
+
+function myFunction2() {
+  var x = document.getElementById("form-control").selectedIndex;
+  var y = document.getElementsByTagName("option")[x].value;
+  document.getElementById("myProgress").value = y;
+}
