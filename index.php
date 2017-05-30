@@ -5,9 +5,38 @@
   <title>Work Request</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="workRequest.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
 </head>
 <body>
-<?php include './php/nav.php' ?>
+<!-- This is the nav bar -->
+<?php include './php/nav.php'; ?>
+<!--  These are the menu options.-->
+<div id="content1">
+    <div class="navigation" id="nav">
+        <div class="item user" data-toggle="modal" data-target="#indoorModal" data-whatever="@indoor">
+            <a href="#" class="icon"></a>
+        </div>
+        <div class="item home" data-toggle="modal" data-target="#outdoorModal" data-whatever="@outdoor">
+            <a href="#" class="icon"></a>
+        </div>
+        <div class="item shop" data-toggle="modal" data-target="#pestsModal" data-whatever="@pests">
+            <a href="#" class="icon"></a>
+        </div>
+        <div class="item camera" data-toggle="modal" data-target="#otherModal" data-whatever="@other">
+            <a href="#" class="icon"></a>
+        </div>
+    </div>
+</div>
+<!-- end of menu options -->
+<!-- commentint out modals in menu
+ <ul class="nav navbar-nav">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#indoorModal" data-whatever="@indoor">Indoor</button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#outdoorModal" data-whatever="@outdoor">Outdoor</button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pestsModal" data-whatever="@pests">Pests</button>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#otherModal" data-whatever="@other">Other</button>
+</ul>
+End commenting out modeals in nav bar-->
+
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
@@ -256,11 +285,12 @@
 
    <!--Bootstrap Javascript-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
-
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="app.js"></script>
 <script type="text/javascript" src="ap1.js"></script>
 <script type="text/javascript" src="ap2.js"></script>
 <script type="text/javascript" src="ap3.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="aco.js"></script>
 </body>
 </html>

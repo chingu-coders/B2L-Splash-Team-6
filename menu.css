@@ -1,0 +1,75 @@
+.navigation{
+    margin: 0px auto;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.navigation .item{
+    position:absolute;
+}
+.user{
+    top:100px;
+    left:110px;
+}
+.home{
+   top:450px;
+   left:400px;
+}
+.shop{
+   top:450px;
+   left:700px;
+}
+.camera{
+   top:100px;
+   left:1000px;
+}
+a.icon{
+    width:199px;
+    height:199px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+    opacity: .3;
+}
+.user a.icon{
+    background:transparent url(http://hucees.com/mayOtters/images/indoor.png) no-repeat 0px 0px;
+}
+.home a.icon{
+    background:transparent url(http://hucees.com/mayOtters/images/outdoor.png) no-repeat 0px 0px;
+}
+.shop a.icon{
+    background:transparent url(http://hucees.com/mayOtters/images/pests.png) no-repeat 0px 0px;
+}
+.camera a.icon{
+    background:transparent url(http://hucees.com/mayOtters/images/other.png) no-repeat 0px 0px;
+}
+/* This determines original size of on page modals for desktop */
+.navigation .item a:hover{
+    background-position:0px -199px;
+}
+
+/* This is the title that will flow center of the floating circles */
+.item h2{
+    position:absolute;
+    width:147px;
+    height:52px;
+    color:#222;
+    font-size:18px;
+    top:0px;
+    left:52px;
+    text-indent:10px;
+    line-height:52px;
+    text-shadow:1px 1px 1px #fff;
+    text-transform:uppercase;
+}
+/* This changes the font color of the h2 to white with a shadow upon active state. */
+.item h2.active{
+    text-shadow:1px 0px 1px #555;
+}
+#content1{
+  position: absolute;
+    margin:0 auto;
+}
